@@ -1,0 +1,71 @@
+.container{
+    border-radius: 10px;
+    width: 300px;
+    background-color: pink;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text{
+    border-radius: 5px;
+    border-width: 0cap;
+    border-color: inherit;
+    height: 25px;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 3px;
+    border-width: 1px;
+    background-color: white;
+    cursor: pointer;
+    height: 25px;
+}
+
+.btn:hover{
+    background-color: lightgrey;
+}
+
+.list{
+    padding: 20px;
+}
+
+.list-item{
+    padding: 10px;
+    background-color: inherit;
+
+}
+
+.completed {
+    text-decoration: line-through;
+}
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.task-item span {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+button{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    color: purple;
+}
